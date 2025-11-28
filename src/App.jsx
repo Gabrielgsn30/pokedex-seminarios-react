@@ -7,7 +7,7 @@ import { PokemonModalProvider } from './context/PokemonModalProvider';
 import Loader from './components/Loader';
 
 function App() {
-  const [type, setType] = useState('ice');
+  const [type, setType] = useState('dark');
 
   return (
     <Suspense fallback={ <Loader /> }>

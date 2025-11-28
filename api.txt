@@ -1,0 +1,63 @@
+API significa:
+
+Application Programming Interface
+(Interface de Programação de Aplicações)
+
+Uma API é uma forma de um software conversar com outro software.
+
+É como uma "ponte" ou "contrato" que diz:
+
+Quais informações posso pedir?
+
+Como devo pedir?
+
+O que o outro sistema vai me devolver?
+
+Metáfora de exemplos:
+
+Você (o cliente) = seu programa
+
+Garçom = API
+
+Cozinha = sistema/servidiço onde estão os dados
+
+Pedido no cardápio = requisição
+
+Comida chegando na mesa = resposta
+
+Você não entra na cozinha, não vê como é feito.
+Você só faz o pedido de forma correta, e o garçom traz o que você pediu.
+
+→ A API funciona exatamente assim.
+
+Quando você olha a previsão do tempo no celular, o app consulta uma API de clima.
+
+Quando você loga com “Entrar com Google”, aquilo usa a API do Google.
+
+Maps, Uber, iFood, Pix — tudo usa APIs o tempo todo.
+
+
+Uma API define:
+
+✦ Endpoints (endereços)
+
+✦ Métodos (GET, POST, etc.)
+
+✦ Dados que você envia
+
+✦ Dados que recebe de volta (geralmente em JSON)
+
+
+GET https://pokeapi.co/api/v2/pokemon/pikachu
+
+
+Resposta em JSON:
+
+{
+  "name": "pikachu",
+  "height": 4,
+  "weight": 60
+}
+
+
+API é uma forma padronizada de pedir e receber informações de outro sistema, sem precisar saber como ele foi implementado.
