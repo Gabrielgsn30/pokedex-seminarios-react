@@ -167,3 +167,10 @@ arquivos adicionados:
 useEvolution.js
 modal
 App.jsx alterado para ter o modal
+
+
+# slides 
+[react](https://docs.google.com/presentation/d/1Hcphk-tYUwtgWwPwMuHb3ogA5e-8AN5rh4FuvCSrPL8/edit?usp=sharing)
+
+
+# Projetos finais Alunos
