@@ -16,8 +16,11 @@ const usePokemons = (type) => {
                     return formatPokemonData(data);
                 })
             );
-
-            return pokemons;
+             //   return pokemons;
+            // 🔥 FILTRO POR GERAÇÃO 1 (até o ID 151)
+            const filtered = pokemons.filter(p => p.id <= 151);
+            // pokemons.filter(p => p.id >= start && p.id <= end);
+            return filtered;
         }
     });
 
